@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+@mixin test {
+  color: inherit;
+  font-size: 12px;
+}
+
+p {
+  color: blue;
+}
+
+.includeTest1 {
+  @include test;
+}
+
+.includeTest2 {
+  @include test;
+  background: #fff;
+}
