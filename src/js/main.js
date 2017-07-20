@@ -162,3 +162,4 @@ function imageSlide (id, options) {
     }
 
 }
+
