@@ -1,3 +1,8 @@
 @charset 'utf-8';
 @import "./base/variables";
 @import "./base/reset";
+@import "./components/common/header";
+@import "./components/common/menu";
+@import "./components/common/entryPanel";
+@import "./components/parts/buttons";
+@import "./components/parts/layout";
